@@ -1,3 +1,5 @@
+package com.inheritence;
+
 public class Dog extends Mammal{
 
     public Dog(String name) {

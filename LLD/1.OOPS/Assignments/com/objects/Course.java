@@ -1,3 +1,5 @@
+package com.objects;
+
 public class Course {
     private String courseName;
     private int credits;

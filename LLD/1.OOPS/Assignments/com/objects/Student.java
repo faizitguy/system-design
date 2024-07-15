@@ -1,3 +1,5 @@
+package com.objects;
+
 import java.util.ArrayList;
 
 public class Student {
@@ -14,8 +16,8 @@ public class Student {
     }
 
     void displayDetails() {
-        System.out.println("Student name is: " + name);
-        System.out.println("Student Enrolled Courses are: ");
+        System.out.println("com.objects.Student name is: " + name);
+        System.out.println("com.objects.Student Enrolled Courses are: ");
         for(Course course: enrolledCourses) {
             String details = " course is " + course.getCourseName()  + " credits are " + course.getCredits();
             System.out.println(details);

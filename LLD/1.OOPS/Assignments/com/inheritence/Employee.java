@@ -1,3 +1,5 @@
+package com.inheritence;
+
 public class Employee extends Person{
     private String employeeId;
 
@@ -8,7 +10,7 @@ public class Employee extends Person{
 
     void displayDetails() {
         super.displayDetails();
-        System.out.println(" Employee ID: " + employeeId);
+        System.out.println(" com.inheritence.Employee ID: " + employeeId);
     }
 
     public static void main(String[] args) {

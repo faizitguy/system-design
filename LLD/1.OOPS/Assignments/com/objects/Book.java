@@ -1,3 +1,5 @@
+package com.objects;
+
 public class Book {
     private String title;
     private String author;
@@ -10,7 +12,7 @@ public class Book {
     }
 
     public String displayDetails() {
-        return "Book name is " + title + " Price is " + price + " Author is " + author;
+        return "com.objects.Book name is " + title + " Price is " + price + " Author is " + author;
     }
 
     public static void main(String[] args) {

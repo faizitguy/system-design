@@ -1,3 +1,5 @@
+package com.inheritence;
+
 public class Animal {
     private String name;
 
